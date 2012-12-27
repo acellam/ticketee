@@ -11,10 +11,11 @@ Scenario: Creating a project
 		And I fill in "Name" with "sublime_text"
 		And I press "Create Project"
 	Then I should see "Project has been created."
-		And I should be on the project page for "sublime_text"
+		And I should  be on the project page for "sublime_text"
 		And I should see "sublime_text - Projects - Ticketee"
 
 Scenario: Creating a project without a name
 		And I press "Create Project"
 	Then I should see "Project has not been created."
 		And I should see "Name can't be blank"
+		
