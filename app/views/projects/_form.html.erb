@@ -1,4 +1,7 @@
 <%= form_for(@project) do |f| %>
+<p>
+<%= f.error_messages %>
+</p>
  <p>
  	<%=f.label :name%>
  	<%=f.text_field :name%>
