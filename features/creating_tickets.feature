@@ -1,5 +1,5 @@
 Feature: Creating Tickets
-	In order to create tickets for a project
+	In order to create  tickets for a project
 	As a user
 	I want to be able to select a project and do that
 Background:

@@ -1,10 +1,5 @@
-<ul>
-	<% @project.errors.full_messages.each do |msg| %>
-		<li><%= msg %></li>
-	<% end %>
-</ul>
-
 <%= form_for(@project) do |f| %>
+<%= f.error_messages %>
  <p>
  	<%=f.label :name%>
  	<%=f.text_field :name%>
