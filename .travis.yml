@@ -1,11 +1,10 @@
 language: ruby
 rvm:
   - "1.9.2"
-  - ruby-head
 bundler_args: --binstubs
 
 before_script:
- -rake db:migrate
- -rake db:test:prepare
+ - rake db:migrate
+ - rake db:test:prepare
 
 script: bundle exec rspec spec
