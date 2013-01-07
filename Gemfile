@@ -21,7 +21,7 @@ gem 'jquery-rails'
 
 group :test, :development do
 	gem 'rspec-rails','~>2.5'
-
+end
 group :test do
 	gem 'cucumber-rails', '1.0.6'
 	gem 'capybara'
@@ -31,5 +31,4 @@ group :test do
 end
 gem 'devise','~>1.4.3'
 
-end
 
