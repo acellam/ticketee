@@ -23,7 +23,7 @@ group :test, :development do
 	gem 'rspec-rails','~>2.5'
 end
 group :test do
-	gem 'cucumber-rails', '1.0.6'
+	gem 'cucumber-rails', '1.0.6', :require => false
 	gem 'capybara'
 	gem 'database_cleaner'
 	gem 'factory_girl_rails','~>4.0'
