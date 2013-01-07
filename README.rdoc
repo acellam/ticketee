@@ -8,7 +8,7 @@ Am creating this app based on the Rails 3 in Action book. However I am using rai
 
 Once i complete the tutorial, i will tweak the app to work as a fully working awesome ticketing app
 
-= \RDoc - RAbout Ticketee
+= \About Ticketee
 
 -Tracks tickets (of course) and groups them into projects
 
