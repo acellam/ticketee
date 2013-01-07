@@ -1,6 +1,43 @@
+= \RDoc - Rails 3 in Action Ticketee app
+
+code quality :: {<img src="https://codeclimate.com/badge.png" />}[https://codeclimate.com/github/mistaguy/ticketee]
+
+Am creating this app based on the Rails 3 in Action book. However I am using rails rails 3.2 and so some of the code in the book do not work because of update of gems. As such i have corrected them this app. And i will continue updating the app to work with the most recent gems. This code can therefore be used as unofficial Rails 3 in Action Errata code.
+
+Once i complete the tutorial, i will tweak the app to work as a fully working awesome ticketing app
+
+= \RDoc - RAbout Ticketee
+
 -Tracks tickets (of course) and groups them into projects
+
 -Provides a way to restrict users to certain projects
+
 -Allows users to upload files to tickets
+
 -Lets users tag tickets so they’re easy to find
+
 -Provides an API on which users can base
+
 -development of their own applications
+
+== Resources
+
+Ruby documentation can be found at http://www.ruby-lang.org/. There are
+several books available online as well:
+
+* Programming Ruby: http://www.ruby-doc.org/docs/ProgrammingRuby/ (Pickaxe)
+
+* Learn to Program: http://pine.fm/LearnToProgram/ (a beginners guide)
+
+
+== License
+
+GNU public lincense
+
+== Warranty
+
+This software is provided "as is" and without any express or implied
+warranties, including, without limitation, the implied warranties of
+merchantability and fitness for a particular purpose.
+
+
