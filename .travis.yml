@@ -3,5 +3,9 @@ rvm:
   - "1.9.2"
   - ruby-head
 bundler_args: --binstubs
-# uncomment this line if your project needs to run something other than `rake`:
+
+before_script:
+ -rake db:migrate
+ -rake db:test:prepare
+
 script: bundle exec rspec spec
