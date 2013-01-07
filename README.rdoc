@@ -1,8 +1,8 @@
 = \Rails 3 in Action Ticketee app
 
-code quality {<img src="https://codeclimate.com/badge.png" />}[https://codeclimate.com/github/mistaguy/ticketee]
+Code climate {<img src="https://codeclimate.com/badge.png" />}[https://codeclimate.com/github/mistaguy/ticketee]
 
-Code Climate {<img src="https://secure.travis-ci.org/mistaguy/ticketee.png?branch=master" />}[http://travis-ci.org/mistaguy/ticketee]
+Build status {<img src="https://secure.travis-ci.org/mistaguy/ticketee.png?branch=master" />}[http://travis-ci.org/mistaguy/ticketee]
 
 Am creating this app based on the Rails 3 in Action book. However I am using rails rails 3.2 and so some of the code in the book do not work because of update of gems. As such i have corrected them this app. And i will continue updating the app to work with the most recent gems. This code can therefore be used as unofficial Rails 3 in Action Errata code.
 
