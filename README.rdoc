@@ -1,4 +1,4 @@
-= \RDoc - Rails 3 in Action Ticketee app
+= \Rails 3 in Action Ticketee app
 
 code quality :: {<img src="https://codeclimate.com/badge.png" />}[https://codeclimate.com/github/mistaguy/ticketee]
 
