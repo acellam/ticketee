@@ -2,8 +2,13 @@ Feature: Editing Projects
 In order to update the project information
 As a user
 I want to be able to do that through an interface
-
+	
 Background:
+	Given there are the following users:
+	| email               | password | admin    |
+	| user@ticketee.com   | password | true     |
+	And I am signed in as them
+
 	Given there is a project called "sublime_text"
 		And I am on the home page
 	When I follow "sublime_text"
